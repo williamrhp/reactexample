@@ -1,0 +1,58 @@
+/*chatroom*/
+
+.chatroom {
+  background: #b3e0ff;
+  /*height:500px;*/
+  width:50%;
+  min-width:300px;
+  border:1px solid black;
+  font-family: cursive;
+}
+
+/*chat*/
+
+.chatDisplay {
+  background:#00e673;
+  box-sizing:border-box;
+  width:100%;
+  height:100%;
+  /*border: 1px solid black;*/
+  resize:none;
+}
+
+.chatDisplayDiv {
+  background:none;
+  /*border:1px solid pink;*/
+  width:95%;
+  height:400px;
+  margin:10px auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+/*input*/
+
+.inputBox {
+  background:#00e673;
+  box-sizing:border-box;
+  width:100%;
+  height:100%;
+  /*border: 1px solid black;*/
+  resize:none;
+}
+
+.inputBoxDiv {
+  background:none;
+  /*border:1px solid pink;*/
+  width:95%;
+  margin:0 auto 10px;
+  display: flex;
+  flex-direction: column; 
+}
+
+/*print*/
+
+.center {
+  text-align: center;
+  margin:0 auto 10px;
+}
